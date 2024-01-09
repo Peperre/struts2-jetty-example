@@ -5,8 +5,29 @@ import java.util.Date;
 public class InvoiceBean {
 
     private String subject;
+
+    private String price;
+
+    private String pricePlusIva;
+
     private Date dateFrom;
     private Date dateTo;
+
+    public String getPricePlusIva() {
+        return pricePlusIva;
+    }
+
+    public void setPricePlusIva(String pricePlusIva) {
+        this.pricePlusIva = pricePlusIva;
+    }
+
+    public String getPrice() {
+        return price;
+    }
+
+    public void setPrice(String price) {
+        this.price = price;
+    }
 
     public Date getDateFrom() {
         return dateFrom;
